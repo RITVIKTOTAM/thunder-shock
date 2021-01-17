@@ -8,7 +8,7 @@ class Thunder{
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
-        this.animation = loadAnimation("proc41images/images/thunderbolt/1.png","proc41images/images/thunderbolt/2.png","proc41images/images/thunderbolt/3.png","proc41images/images/thunderbolt/4.png");
+        this.animation = loadAnimation("1.png","2.png","3.png","4.png");
         World.add(world, this.body);
       }
       display(){
